@@ -42,17 +42,37 @@ class ContactTableViewController: UITableViewController {
     }
 
     
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cellIdentifier = "NameTableViewCell"
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? NameTableViewCell else{
-            fatalError("You fucked up")
+       // if(indexPath.row % 2 == 0){
+            let cellIdentifier = "NameTableViewCell"
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? NameTableViewCell else{
+                fatalError("error")
+            }
+            let person = people[indexPath.row]
+            cell.firstNameLabel.text = person.firstName
+            cell.lastNameLabel.text = person.lastName
+            return cell
+           
+        //}
+    
+        /*
+        else{
+            let cellIdentifier = "AddressTableViewCell"
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? AddressTableViewCell else{
+                fatalError("error")
+            }
+            let person = p  eople[indexPath.row]
+            cell.streetLabel.text = person.street
+            cell.cityLabel.text = person.city
+            cell.zipLabel.text = String(person.zip)
+            cell.stateLabel.text = person.state
+            
+            return cell
+            
         }
-        let person = people[indexPath.row]
-        cell.firstNameLabel.text = person.firstName
-        cell.lastNameLabel.text = person.lastName
+        */
 
-        return cell
     }
     
     /*

@@ -54,7 +54,7 @@
                                     <outlet property="lastNameLabel" destination="Czc-4a-4sS" id="8sI-gk-A6A"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AdressTableCell" id="QC5-lk-AMm" customClass="AddressTableViewCell" customModule="raschDylan_hw4" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AdressTableViewCell" id="QC5-lk-AMm" customClass="AddressTableViewCell" customModule="raschDylan_hw4" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="78" width="375" height="48"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QC5-lk-AMm" id="Jpq-CP-o3S">
