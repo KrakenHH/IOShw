@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "raschDylan-hw4/ContactTableViewController.swift"
-            timestampString = "509430176.720026"
+            timestampString = "509430594.215875"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
             landmarkName = "ContactTableViewController"
             landmarkType = "3">
          </BreakpointContent>
