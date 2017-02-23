@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  RaschDylan-hw3
+//  raschDylan-hw3
 //
-//  Created by Chloe Rasch on 2/13/17.
-//  Copyright © 2017 Chloe Rasch. All rights reserved.
+//  Created by Dylan Rasch on 2/22/17.
+//  Copyright © 2017 Dylan Rasch. All rights reserved.
 //
 
 import UIKit

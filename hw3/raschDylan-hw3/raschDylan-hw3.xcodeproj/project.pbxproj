@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E02BF011E5E96A300DFA0A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E02BF001E5E96A300DFA0A8 /* AppDelegate.swift */; };
+		8E02BF031E5E96A300DFA0A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E02BF021E5E96A300DFA0A8 /* ViewController.swift */; };
+		8E02BF061E5E96A300DFA0A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E02BF041E5E96A300DFA0A8 /* Main.storyboard */; };
+		8E02BF081E5E96A300DFA0A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E02BF071E5E96A300DFA0A8 /* Assets.xcassets */; };
+		8E02BF0B1E5E96A300DFA0A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E02BF091E5E96A300DFA0A8 /* LaunchScreen.storyboard */; };
+		8E02BF161E5E96A300DFA0A8 /* raschDylan_hw3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E02BF151E5E96A300DFA0A8 /* raschDylan_hw3Tests.swift */; };
+		8E02BF211E5E96A300DFA0A8 /* raschDylan_hw3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E02BF201E5E96A300DFA0A8 /* raschDylan_hw3UITests.swift */; };
+		8E983CB81E5E97680091E9C7 /* PersonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E983CB71E5E97680091E9C7 /* PersonTableViewController.swift */; };
+		8E983CBA1E5E979D0091E9C7 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E983CB91E5E979D0091E9C7 /* Person.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E02BF121E5E96A300DFA0A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E02BEF51E5E96A300DFA0A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E02BEFC1E5E96A300DFA0A8;
+			remoteInfo = "raschDylan-hw3";
+		};
+		8E02BF1D1E5E96A300DFA0A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E02BEF51E5E96A300DFA0A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E02BEFC1E5E96A300DFA0A8;
+			remoteInfo = "raschDylan-hw3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E02BEFD1E5E96A300DFA0A8 /* raschDylan-hw3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "raschDylan-hw3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E02BF001E5E96A300DFA0A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E02BF021E5E96A300DFA0A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E02BF051E5E96A300DFA0A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E02BF071E5E96A300DFA0A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E02BF0A1E5E96A300DFA0A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E02BF0C1E5E96A300DFA0A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E02BF111E5E96A300DFA0A8 /* raschDylan-hw3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "raschDylan-hw3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E02BF151E5E96A300DFA0A8 /* raschDylan_hw3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = raschDylan_hw3Tests.swift; sourceTree = "<group>"; };
+		8E02BF171E5E96A300DFA0A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E02BF1C1E5E96A300DFA0A8 /* raschDylan-hw3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "raschDylan-hw3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E02BF201E5E96A300DFA0A8 /* raschDylan_hw3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = raschDylan_hw3UITests.swift; sourceTree = "<group>"; };
+		8E02BF221E5E96A300DFA0A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E983CB71E5E97680091E9C7 /* PersonTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewController.swift; sourceTree = "<group>"; };
+		8E983CB91E5E979D0091E9C7 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E02BEFA1E5E96A300DFA0A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E02BF0E1E5E96A300DFA0A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E02BF191E5E96A300DFA0A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E02BEF41E5E96A300DFA0A8 = {
+			isa = PBXGroup;
+			children = (
+				8E02BEFF1E5E96A300DFA0A8 /* raschDylan-hw3 */,
+				8E02BF141E5E96A300DFA0A8 /* raschDylan-hw3Tests */,
+				8E02BF1F1E5E96A300DFA0A8 /* raschDylan-hw3UITests */,
+				8E02BEFE1E5E96A300DFA0A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E02BEFE1E5E96A300DFA0A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E02BEFD1E5E96A300DFA0A8 /* raschDylan-hw3.app */,
+				8E02BF111E5E96A300DFA0A8 /* raschDylan-hw3Tests.xctest */,
+				8E02BF1C1E5E96A300DFA0A8 /* raschDylan-hw3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E02BEFF1E5E96A300DFA0A8 /* raschDylan-hw3 */ = {
+			isa = PBXGroup;
+			children = (
+				8E02BF001E5E96A300DFA0A8 /* AppDelegate.swift */,
+				8E983CB71E5E97680091E9C7 /* PersonTableViewController.swift */,
+				8E02BF021E5E96A300DFA0A8 /* ViewController.swift */,
+				8E983CB91E5E979D0091E9C7 /* Person.swift */,
+				8E02BF041E5E96A300DFA0A8 /* Main.storyboard */,
+				8E02BF071E5E96A300DFA0A8 /* Assets.xcassets */,
+				8E02BF091E5E96A300DFA0A8 /* LaunchScreen.storyboard */,
+				8E02BF0C1E5E96A300DFA0A8 /* Info.plist */,
+			);
+			path = "raschDylan-hw3";
+			sourceTree = "<group>";
+		};
+		8E02BF141E5E96A300DFA0A8 /* raschDylan-hw3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8E02BF151E5E96A300DFA0A8 /* raschDylan_hw3Tests.swift */,
+				8E02BF171E5E96A300DFA0A8 /* Info.plist */,
+			);
+			path = "raschDylan-hw3Tests";
+			sourceTree = "<group>";
+		};
+		8E02BF1F1E5E96A300DFA0A8 /* raschDylan-hw3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E02BF201E5E96A300DFA0A8 /* raschDylan_hw3UITests.swift */,
+				8E02BF221E5E96A300DFA0A8 /* Info.plist */,
+			);
+			path = "raschDylan-hw3UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E02BEFC1E5E96A300DFA0A8 /* raschDylan-hw3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E02BF251E5E96A300DFA0A8 /* Build configuration list for PBXNativeTarget "raschDylan-hw3" */;
+			buildPhases = (
+				8E02BEF91E5E96A300DFA0A8 /* Sources */,
+				8E02BEFA1E5E96A300DFA0A8 /* Frameworks */,
+				8E02BEFB1E5E96A300DFA0A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "raschDylan-hw3";
+			productName = "raschDylan-hw3";
+			productReference = 8E02BEFD1E5E96A300DFA0A8 /* raschDylan-hw3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E02BF101E5E96A300DFA0A8 /* raschDylan-hw3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E02BF281E5E96A300DFA0A8 /* Build configuration list for PBXNativeTarget "raschDylan-hw3Tests" */;
+			buildPhases = (
+				8E02BF0D1E5E96A300DFA0A8 /* Sources */,
+				8E02BF0E1E5E96A300DFA0A8 /* Frameworks */,
+				8E02BF0F1E5E96A300DFA0A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E02BF131E5E96A300DFA0A8 /* PBXTargetDependency */,
+			);
+			name = "raschDylan-hw3Tests";
+			productName = "raschDylan-hw3Tests";
+			productReference = 8E02BF111E5E96A300DFA0A8 /* raschDylan-hw3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E02BF1B1E5E96A300DFA0A8 /* raschDylan-hw3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E02BF2B1E5E96A300DFA0A8 /* Build configuration list for PBXNativeTarget "raschDylan-hw3UITests" */;
+			buildPhases = (
+				8E02BF181E5E96A300DFA0A8 /* Sources */,
+				8E02BF191E5E96A300DFA0A8 /* Frameworks */,
+				8E02BF1A1E5E96A300DFA0A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E02BF1E1E5E96A300DFA0A8 /* PBXTargetDependency */,
+			);
+			name = "raschDylan-hw3UITests";
+			productName = "raschDylan-hw3UITests";
+			productReference = 8E02BF1C1E5E96A300DFA0A8 /* raschDylan-hw3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E02BEF51E5E96A300DFA0A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Dylan Rasch";
+				TargetAttributes = {
+					8E02BEFC1E5E96A300DFA0A8 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					8E02BF101E5E96A300DFA0A8 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8E02BEFC1E5E96A300DFA0A8;
+					};
+					8E02BF1B1E5E96A300DFA0A8 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8E02BEFC1E5E96A300DFA0A8;
+					};
+				};
+			};
+			buildConfigurationList = 8E02BEF81E5E96A300DFA0A8 /* Build configuration list for PBXProject "raschDylan-hw3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E02BEF41E5E96A300DFA0A8;
+			productRefGroup = 8E02BEFE1E5E96A300DFA0A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E02BEFC1E5E96A300DFA0A8 /* raschDylan-hw3 */,
+				8E02BF101E5E96A300DFA0A8 /* raschDylan-hw3Tests */,
+				8E02BF1B1E5E96A300DFA0A8 /* raschDylan-hw3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E02BEFB1E5E96A300DFA0A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E02BF0B1E5E96A300DFA0A8 /* LaunchScreen.storyboard in Resources */,
+				8E02BF081E5E96A300DFA0A8 /* Assets.xcassets in Resources */,
+				8E02BF061E5E96A300DFA0A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E02BF0F1E5E96A300DFA0A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E02BF1A1E5E96A300DFA0A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E02BEF91E5E96A300DFA0A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E02BF031E5E96A300DFA0A8 /* ViewController.swift in Sources */,
+				8E02BF011E5E96A300DFA0A8 /* AppDelegate.swift in Sources */,
+				8E983CBA1E5E979D0091E9C7 /* Person.swift in Sources */,
+				8E983CB81E5E97680091E9C7 /* PersonTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E02BF0D1E5E96A300DFA0A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E02BF161E5E96A300DFA0A8 /* raschDylan_hw3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E02BF181E5E96A300DFA0A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E02BF211E5E96A300DFA0A8 /* raschDylan_hw3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E02BF131E5E96A300DFA0A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E02BEFC1E5E96A300DFA0A8 /* raschDylan-hw3 */;
+			targetProxy = 8E02BF121E5E96A300DFA0A8 /* PBXContainerItemProxy */;
+		};
+		8E02BF1E1E5E96A300DFA0A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E02BEFC1E5E96A300DFA0A8 /* raschDylan-hw3 */;
+			targetProxy = 8E02BF1D1E5E96A300DFA0A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E02BF041E5E96A300DFA0A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E02BF051E5E96A300DFA0A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E02BF091E5E96A300DFA0A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E02BF0A1E5E96A300DFA0A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E02BF231E5E96A300DFA0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E02BF241E5E96A300DFA0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E02BF261E5E96A300DFA0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "raschDylan-hw3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hw3.raschDylan-hw3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8E02BF271E5E96A300DFA0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "raschDylan-hw3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hw3.raschDylan-hw3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8E02BF291E5E96A300DFA0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "raschDylan-hw3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hw3.raschDylan-hw3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/raschDylan-hw3.app/raschDylan-hw3";
+			};
+			name = Debug;
+		};
+		8E02BF2A1E5E96A300DFA0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "raschDylan-hw3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hw3.raschDylan-hw3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/raschDylan-hw3.app/raschDylan-hw3";
+			};
+			name = Release;
+		};
+		8E02BF2C1E5E96A300DFA0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "raschDylan-hw3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hw3.raschDylan-hw3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "raschDylan-hw3";
+			};
+			name = Debug;
+		};
+		8E02BF2D1E5E96A300DFA0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "raschDylan-hw3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hw3.raschDylan-hw3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "raschDylan-hw3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E02BEF81E5E96A300DFA0A8 /* Build configuration list for PBXProject "raschDylan-hw3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E02BF231E5E96A300DFA0A8 /* Debug */,
+				8E02BF241E5E96A300DFA0A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E02BF251E5E96A300DFA0A8 /* Build configuration list for PBXNativeTarget "raschDylan-hw3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E02BF261E5E96A300DFA0A8 /* Debug */,
+				8E02BF271E5E96A300DFA0A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E02BF281E5E96A300DFA0A8 /* Build configuration list for PBXNativeTarget "raschDylan-hw3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E02BF291E5E96A300DFA0A8 /* Debug */,
+				8E02BF2A1E5E96A300DFA0A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E02BF2B1E5E96A300DFA0A8 /* Build configuration list for PBXNativeTarget "raschDylan-hw3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E02BF2C1E5E96A300DFA0A8 /* Debug */,
+				8E02BF2D1E5E96A300DFA0A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E02BEF51E5E96A300DFA0A8 /* Project object */;
+}
