@@ -38,7 +38,7 @@ class ContactTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return people.count
+        return people.count * 2
     }
 
     
@@ -49,7 +49,7 @@ class ContactTableViewController: UITableViewController {
             guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? NameTableViewCell else{
                 fatalError("error")
             }
-            let person = people[indexPath.row]
+            let person = people[indexPath.row/2]
             cell.firstNameLabel.text = person.firstName
             cell.lastNameLabel.text = person.lastName
             return cell
@@ -61,7 +61,7 @@ class ContactTableViewController: UITableViewController {
             guard let cell = tableView.dequeueReusableCell(withIdentifier: id, for: indexPath) as? AddressTableViewCell else{
                 fatalError("error")
             }
-            let person = people[indexPath.row]
+            let person = people[indexPath.row/2]
             cell.streetLabel.text = person.street
             cell.cityLabel.text = person.city
             cell.zipLabel.text = String(person.zip)
