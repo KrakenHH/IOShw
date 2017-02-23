@@ -10,22 +10,6 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "raschDylan-hw4/ContactTableViewController.swift"
-            timestampString = "509429396.080739"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "raschDylan-hw4/ContactTableViewController.swift"
             timestampString = "509430594.215875"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -41,14 +25,76 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "raschDylan-hw4/ContactTableViewController.swift"
-            timestampString = "509429396.080739"
+            filePath = "raschDylan-hw4/AddressTableViewCell.swift"
+            timestampString = "509512235.838575"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "AddressTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "raschDylan_hw4.AddressTableViewCell.streetLabel.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "raschDylan-hw4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krakenhh/Desktop/IOShw/raschDylan-hw4/raschDylan-hw4/AddressTableViewCell.swift"
+                  timestampString = "509512235.848602"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "raschDylan_hw4.AddressTableViewCell.streetLabel.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "raschDylan-hw4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krakenhh/Desktop/IOShw/raschDylan-hw4/raschDylan-hw4/AddressTableViewCell.swift"
+                  timestampString = "509512235.852558"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "raschDylan_hw4.AddressTableViewCell.init (style : __C.UITableViewCellStyle, reuseIdentifier : Swift.Optional&lt;Swift.String&gt;) -&gt; raschDylan_hw4.AddressTableViewCell"
+                  moduleName = "raschDylan-hw4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krakenhh/Desktop/IOShw/raschDylan-hw4/raschDylan-hw4/AddressTableViewCell.swift"
+                  timestampString = "509512235.854641"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "raschDylan_hw4.AddressTableViewCell.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;raschDylan_hw4.AddressTableViewCell&gt;"
+                  moduleName = "raschDylan-hw4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krakenhh/Desktop/IOShw/raschDylan-hw4/raschDylan-hw4/AddressTableViewCell.swift"
+                  timestampString = "509512235.856729"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -57,8 +57,8 @@ class ContactTableViewController: UITableViewController {
         }
     
         else{
-            let cellIdentifier = "AddressTableViewCell"
-            guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? AddressTableViewCell else{
+            let id = "AddressTableViewCell"
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: id, for: indexPath) as? AddressTableViewCell else{
                 fatalError("error")
             }
             let person = people[indexPath.row]
