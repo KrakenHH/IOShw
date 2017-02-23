@@ -45,6 +45,7 @@ class ContactTableViewController: UITableViewController {
    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         if(indexPath.row % 2 == 0){
+            
             let cellIdentifier = "NameTableViewCell"
             guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? NameTableViewCell else{
                 fatalError("error")
